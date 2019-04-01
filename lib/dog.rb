@@ -85,6 +85,6 @@ require_relative '../config/environment'
    end
 
    def update
-     sql = 
+     sql =
    end
  end

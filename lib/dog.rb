@@ -83,4 +83,7 @@ require_relative '../config/environment'
        self.new_from_db(row)
      end.first
    end
+
+   def update
+     sql = 
  end

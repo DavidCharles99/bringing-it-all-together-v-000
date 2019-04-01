@@ -68,7 +68,7 @@ require_relative '../config/environment'
       id = row[0]
       name = row[1]
       breed = row[2]
-      new_dog = se;f.new(id: id, name: name, breed: breed)
+      new_dog = self.new(id: id, name: name, breed: breed)
       new_dog
   end
 

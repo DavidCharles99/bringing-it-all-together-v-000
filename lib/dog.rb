@@ -85,6 +85,10 @@ require_relative '../config/environment'
    end
 
    def update
-     sql =
+     sql = 
+     "UPDATE dogs 
+      SET name = ?, breed = ? 
+      WHERE ID = ?"
+      DB[:conn].execute(sql, self.name, self.breed, self.id)
    end
  end
